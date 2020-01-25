@@ -1,0 +1,36 @@
+HTTrack3.49-2 launched on Sun, 26 Jan 2020 00:16:30 at http://root:smokeweed@localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://root:smokeweed@localhost -O "/root/websites/test1" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:17:01	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from root:smokeweed@localhost/)
+00:17:02	Warning: 	Note: due to s.w.org remote robots.txt rules, links beginning with these path will be forbidden: /search, /support/rss, /archive/, /?filters (see in the options to disable this)
+00:17:02	Warning: 	Moved Permanently for s.w.org/
+00:17:02	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+00:17:03	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from root:smokeweed@localhost/)
+00:17:12	Warning: 	Warning: store text/html without scan: /root/websites/test1/gmpg.org/xfn/.html
+00:17:12	Warning: 	Warning: store text/html without scan: /root/websites/test1/gmpg.org/xfn/intro.html
+00:17:12	Warning: 	Warning: store text/html without scan: /root/websites/test1/gmpg.org/xfn/faq.html
+00:17:12	Warning: 	Moved Permanently for localhost/?p=25
+00:17:12	Warning: 	File has moved from localhost/?p=25 to http://localhost/index.php/about/
+00:17:12	Warning: 	Moved Permanently for localhost/?p=26
+00:17:12	Warning: 	File has moved from localhost/?p=26 to http://localhost/index.php/contact/
+00:17:12	Warning: 	Moved Permanently for localhost/?p=1
+00:17:12	Warning: 	File has moved from localhost/?p=1 to http://localhost/index.php/2020/01/26/hello-world/
+00:17:12	Error: 	"Method Not Allowed" (405) at link localhost/xmlrpc.php (from localhost/index.php/2020/01/26/hello-world/)
+00:17:13	Warning: 	Note: due to 1.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+00:17:13	Warning: 	HTML file (76191 bytes) retransferred due to lack of cache: localhost/index.php/wp-json/
+00:17:15	Warning: 	HTML file (1683 bytes) retransferred due to lack of cache: localhost/index.php/2020/01/26/hello-world/feed/
+00:17:17	Warning: 	HTML file (1686 bytes) retransferred due to lack of cache: localhost/index.php/author/root/feed/
+00:17:18	Warning: 	HTML file (55935 bytes) retransferred due to lack of cache: localhost/index.php/about/
+00:17:22	Warning: 	Warning: store text/css without scan: /root/websites/test1/gmpg.org/xfn/default.css
+00:17:22	Warning: 	HTML file (797 bytes) retransferred due to lack of cache: localhost/?p=1
+00:17:23	Warning: 	Moved Permanently for localhost/?p=1
+00:17:23	Warning: 	File has moved from localhost/?p=1 to http://localhost/index.php/2020/01/26/hello-world/
+00:17:23	Warning: 	HTML file (62081 bytes) retransferred due to lack of cache: localhost/index.php/2020/01/26/hello-world/?replytocom=1
+
+HTTrack Website Copier/3.49-2 mirror complete in 55 seconds : 53 links scanned, 44 files written (1132537 bytes overall) [678999 bytes received at 12345 bytes/sec], 684716 bytes transferred using HTTP compression in 28 files, ratio 30%, 2.3 requests per connection
+(3 errors, 22 warnings, 0 messages)
